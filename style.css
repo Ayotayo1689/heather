@@ -94,3 +94,60 @@
 .admin{
     padding: 0.5em;
 }
+.prof-body{
+    background-color: black;
+    color: azure;
+    margin: 1em ;
+}
+.prof-body a{
+    margin: 1em ;
+    color:white;
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.pic-body{
+    height: 80vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    flex-direction: column;
+}
+.profile-pic{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(/images/WhatsApp\ Image\ 2022-10-29\ at\ 11.42.39\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (min-width: 500px) {
+    .bal{
+        height:50vh;
+    }
+} 
+@media screen and (min-width: 600px) {
+    .bal{
+        height:60vh;
+    }
+    .profile-pic{
+        width: 100vw;
+        height: 60vh;
+        background-image: url(/images/WhatsApp\ Image\ 2022-10-29\ at\ 11.42.39\ AM.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+} 
+@media screen and (min-width: 700px) {
+    
+    .profile-pic{
+        width: 24em;
+        height: 32em;
+        background-image: url(/images/WhatsApp\ Image\ 2022-10-29\ at\ 11.42.39\ AM.jpeg);
+        background-position: center;
+        background-size: contain;
+    }
+} 
+    
